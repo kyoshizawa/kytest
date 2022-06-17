@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: backend-app
-          image: ${ECR_HOST}/kytest/backend-app:1.0.0
+          image: 984452622757.dkr.ecr.us-east-1.amazonaws.com/kytest/backend-app:1.0.0
           imagePullPolicy: Always
           ports:
           - containerPort: 8080
